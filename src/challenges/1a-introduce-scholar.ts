@@ -5,9 +5,10 @@ interface Scholar {
 }
 
 function introduceScholar(scholar: Scholar): string {
-  // complete function
-  // use object destructuring, for practice!
-  return "fails test right now";
+
+
+
+  return `${scholar.firstName} ${scholar.lastName} is an Academy Scholar, on Cohort ${scholar.cohortNumber}.`;
 }
 
 export default introduceScholar;
